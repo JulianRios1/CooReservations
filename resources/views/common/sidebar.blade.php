@@ -5,7 +5,7 @@
         <div class="sidebar-brand-icon rotate-n-15">
             <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+        <div class="sidebar-brand-text mx-3">CooRe</div>
     </a>
 
     <!-- Divider -->
@@ -29,17 +29,14 @@
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item" href="{{ route('roles.index') }}">Roles</a>
-                <a class="collapse-item" href="{{ route('user.index') }}">Usuarios</a>
-                <a class="collapse-item" href="{{ route('permissions.index') }}">Permiso</a>
-                <a class="collapse-item" href="{{ route('equipment.index')}}">Equipos</a>
-
+                <a class="collapse-item" href="{{ route('roles.index')          }}">Roles</a>
+                <a class="collapse-item" href="{{ route('user.index')           }}">Usuarios</a>
+                <a class="collapse-item" href="{{ route('permissions.index')    }}">Permiso</a>
+                <a class="collapse-item" href="{{ route('equipmen-type.index')  }}">Tipo de equipos</a>
+                <a class="collapse-item" href="{{ route('equipment.index')      }}">Equipos</a>
             </div>
         </div>
     </li>
-
-
-
     <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
@@ -49,9 +46,8 @@
         </a>
         <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item" href="{{route('booking.history')}}">Historial Reservas</a>
-                <a class="collapse-item" href="{{route('booking.index')}}">Reservar</a>
-
+                <a class="collapse-item" href="{{route('booking.history')   }}">Historial Reservas</a>
+                <a class="collapse-item" href="{{route('booking.index')     }}">Reservar</a>
             </div>
         </div>
     </li>

@@ -22,6 +22,7 @@ Route::resources([
     '/permissions'=> App\Http\Controllers\PermissionsController::class,
     '/user'=> App\Http\Controllers\UserController::class,
     '/booking'=>App\Http\Controllers\BookingsController::Class,
+    '/equipmen-type'=>App\Http\Controllers\EquipmentTypeController::Class,
     '/equipment'=> App\Http\Controllers\EquipmentController::Class,
     ]);
 Route::get('/booking/history',[App\Http\Controllers\BookingsController::Class,'history'])->name('booking.history');
