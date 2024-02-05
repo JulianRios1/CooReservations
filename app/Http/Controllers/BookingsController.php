@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class Roles extends Controller
+class BookingsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -78,6 +78,16 @@ class Roles extends Controller
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)
+    {
+        //
+    }
+
+        /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function history()
     {
         //
     }
